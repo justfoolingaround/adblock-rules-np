@@ -1,0 +1,33 @@
+! Title: Nepali Adblock Rules
+! Version: 1
+! Homepage: https://github.com/justfoolingaround/adblock-rules-np
+! Expires: 8 hours (update frequency)
+
+! eKantipur
+ekantipur.com##.static-sponsor, [class*="sponser"], .ekans-wrapper
+||assets-cdn.kantipurdaily.com/uploads/source/ads/*
+
+! OnlineKhabar
+onlinekhabar.com##[id^="okam-ad"], .okam-each-ad, #ok18-roadblock-wrap
+
+! Ujyaalo Online
+ujyaaloonline.com##.ad
+
+! Setopati
+setopati.com##[class*="bigyaapan"]
+
+! Ratopati
+ratopati.com##.adv-item
+
+! NepalTimes
+nepalitimes.com##.adv-section, [src$="himal-ad-for-NT.jpeg"], .qfx-adsense, [href*="utm_campaign"], [title="Himalayan Bank"]
+
+! Annapurna Post
+! .sticky-footer blocks the inability scroll when a pop-up is seen.
+annapurnapost.com##.advertisement, .lay-sh.active-sh, #roadBlock, .sticky-footer, [class*="bigyapan"]
+
+! HimalKhabar
+himalkhabar.com##[class*="bigyaapan"]
+
+! PahiloPost
+pahilopost.com##a[href$="bizmandu.com"]
